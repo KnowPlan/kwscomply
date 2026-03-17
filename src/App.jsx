@@ -12654,7 +12654,7 @@ const Login = ({ onLogin, loginMsg }) => {
   return (
     <div style={{ minHeight: "100vh", background: t.brandBg, display: "flex", alignItems: "center", justifyContent: "center",
       fontFamily: PRETENDARD_FONT }}>
-      <div style={{ width: 420, background: "#fff", borderRadius: 12, padding: "44px 40px", boxShadow: "0 24px 64px rgba(0,0,0,.25)" }}>
+      <div style={{ width: 336, background: "#fff", borderRadius: 12, padding: "44px 32px", boxShadow: "0 24px 64px rgba(0,0,0,.25)" }}>
 
         {/* 로고 */}
         <div style={{ textAlign: "center", marginBottom: loginMsg ? 20 : 32 }}>
